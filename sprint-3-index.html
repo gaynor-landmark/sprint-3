@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sectioning content</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sectioning content</h1>
+      <nav role="navigation">
+        <h2>
+          Global navigation
+        </h2>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">aside</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">nav</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">section</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main role="main">  
+      <article role="article">
+        <h2>
+          Articles
+        </h2>
+          <p>
+           The <abbr title="HyperText Transfer Protocol">HTML</abbr> &lt;article&gt; element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each &lt;article&gt; should be identified, typically by including a heading (&lt;h1&gt;-&lt;h6&gt; element) as a child of the &lt;article> element.
+          </p>
+          <p>Content categories: <span>Flow content, sectioning content, palpable content.</span></p>   
+      </article>
+      <article role="article">
+        <h2>
+          Asides
+        </h2>
+          <p>The <abbr title="HyperText Transfer Protocol">HTML</abbr> &lt;aside&gt; element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content. These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements; the biography of the author; web applications; profile information or related links on the blog.
+        </p>
+        <p>Content categories: <span>Flow content, sectioning content, palpable content.</span></p>
+      </article>
+      <article>
+        <h2>Block vs. Inline </h2>
+          <p>
+            A <br><em>block element</em><br> sits on its own line.
+            An <em>inline element</em> sits in the flow of text.  A fragment of computer code is normally shown in monospace like <code>this</code>.
+          </p>
+      </article>
+      <aside>
+        <h2>Grumpy Cat</h2>
+        <img src="https://pbs.twimg.com/profile_images/616542814319415296/McCTpH_E.jpg">
+        <p>Grumpy Cat is an internet sensation.</p>
+        <p>Apparently she <q>rose to online fame</q> in September 2012.  I <strong>hate</strong> Grumpy Cat.</p>   
+      </aside>
+    </main>
+    <footer role="contentinfo"> 
+      <p>Copyright 2015 Sections, Inc.</p>
+    </footer>
+  </body>
+</html>
